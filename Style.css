@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Header*/
+header{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #C0CFB2;
+}
+header img {
+    height: 200px;
+    width: 200px;
+}
+
+/*Body*/
+body {
+    background-color: #FCFAF8;
+}
