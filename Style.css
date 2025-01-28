@@ -32,11 +32,16 @@ h1 {
     font-style: normal;
     }
 #introduction h2 {
-    font-family: 'Times New Roman', serif 
+    font-family: "Playwrite VN", serif;
+    text-decoration: underline;
 }
 
 
 /*Body*/
+p {
+    font-size: 1.25em;
+  }
+
 #introduction p:first-of-type {
     text-indent: 50px;
 }
@@ -48,19 +53,20 @@ h1 {
     }
 
 /*gallery Images */
+
 .gallery {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    width: 100%; /* Adjust width to 100% to take up the full available width */
-    max-width: 100%; /* Ensure it doesn't go beyond the container's width */
-}
+    width: 100%; 
+    max-width: 100%; 
+    }
 
 .gallery img {
     height: 30%;
     width: 30%;
     border: 5px solid #FCFAF8
-}
+    }
 
 /*Betty Lou's Library'*/
         #BettyLous {
