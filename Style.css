@@ -25,7 +25,7 @@ h1 {
 }
 
 /*h2*/
-#introduction h2 {
+.acnr {
     font-family: "Playwrite VN", serif;
     text-decoration: underline;
 }   
